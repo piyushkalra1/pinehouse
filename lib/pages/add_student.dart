@@ -210,9 +210,11 @@ class _AddStudentPageState extends State<AddStudentPage> {
                             dapartment=departmentContoller.text;
                             addUser();
                             clearText();
+
                           });
+
                         }
-                        Navigator.pop(context);
+
                       },
                       child: Text(
                         'Save',
